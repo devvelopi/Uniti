@@ -9,6 +9,8 @@
         <PackageTags>unitOfWork transaction rollback</PackageTags>
         <PackageId>Uniti.Core</PackageId>
         <SignAssembly>true</SignAssembly>
+        <PackageVersion>0.1</PackageVersion>
+        <Title>Uniti Core</Title>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
