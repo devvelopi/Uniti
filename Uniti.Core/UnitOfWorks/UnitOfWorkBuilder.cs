@@ -113,7 +113,7 @@ namespace Uniti.Core.UnitOfWorks
                     action.Status = UnitOfWorkStatus.Run;
                 }
             }
-            catch (Exception e)
+            catch
             {
                 if (autoRollback) await RollbackAsync();
                 throw;
