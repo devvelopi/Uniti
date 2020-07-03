@@ -9,7 +9,7 @@
         <PackageTags>unitOfWork transaction rollback</PackageTags>
         <PackageId>Uniti.Core</PackageId>
         <SignAssembly>true</SignAssembly>
-        <PackageVersion>0.1</PackageVersion>
+        <Version>0.1</Version>
         <Title>Uniti Core</Title>
     </PropertyGroup>
 
