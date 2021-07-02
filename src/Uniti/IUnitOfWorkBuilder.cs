@@ -1,8 +1,7 @@
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Uniti.Core.UnitOfWorks
+namespace Uniti
 {
     /// <summary>
     /// Provides contract to implement transactional functionality following unit of work pattern

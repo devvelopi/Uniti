@@ -2,9 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Uniti.Core.UnitOfWorks.Util;
 
-namespace Uniti.Core.UnitOfWorks
+namespace Uniti
 {
     /// <summary>
     /// Default implementation of unit of work management

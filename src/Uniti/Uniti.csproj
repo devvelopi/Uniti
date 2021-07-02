@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>An implementation of the unit of work pattern that extends beyond traditional database transactions, allowing management of custom commit and rollback functionality.</Description>
+        <PackageProjectUrl>https://github.com/jaseaman/Uniti</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jaseaman/Uniti</RepositoryUrl>
+        <PackageTags>unitOfWork transaction rollback</PackageTags>
+        <PackageId>Uniti</PackageId>
+        <SignAssembly>true</SignAssembly>
+        <Version>1.0.0</Version>
+        <Title>Uniti</Title>
+        <LangVersion>9</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\Uniti.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\Uniti.xml</DocumentationFile>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+</Project>

@@ -1,8 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using Uniti.Core.UnitOfWorks.Util;
 
-namespace Uniti.Core.UnitOfWorks
+namespace Uniti
 {
     /// <summary>
     /// A container for a unit of work containing the action, rollback and status
@@ -14,7 +13,7 @@ namespace Uniti.Core.UnitOfWorks
         /// </summary>
         /// <param name="action">The unit action</param>
         /// <param name="rollback">Optional unit rollback</param>
-        public UnitOfWork(Func<Task> action, Func<Task> rollback = null)
+        public UnitOfWork(Func<Task> action, Func<Task>? rollback = null)
         {
             Action = action;
             Rollback = rollback;
@@ -34,6 +33,6 @@ namespace Uniti.Core.UnitOfWorks
         /// <summary>
         /// The rollback of the action
         /// </summary>
-        public Func<Task> Rollback { get; }
+        public Func<Task>? Rollback { get; }
     }
 }

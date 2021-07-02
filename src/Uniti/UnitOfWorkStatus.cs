@@ -1,4 +1,4 @@
-namespace Uniti.Core.UnitOfWorks.Util
+namespace Uniti
 {
     /// <summary>
     /// Status identifiers used for unit of work elements
